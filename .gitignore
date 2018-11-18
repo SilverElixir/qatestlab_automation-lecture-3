@@ -33,6 +33,15 @@
 .idea
 *.iml
 
+# TestNG (test-output)
+test-output/junitreports
+test-output/old
+test-output/SuiteAll
+test-output/*.png
+test-output/*.gif
+test-output/*.css
+test-output/*.js
+
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 

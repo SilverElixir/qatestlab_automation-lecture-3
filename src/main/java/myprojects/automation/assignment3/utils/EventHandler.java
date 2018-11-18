@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.testng.Reporter;
 
-import java.nio.CharBuffer;
-
 /**
  * Created by lucky on 11/17/18.
  */

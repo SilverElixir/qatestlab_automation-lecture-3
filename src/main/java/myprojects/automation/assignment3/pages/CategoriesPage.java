@@ -40,19 +40,4 @@ public class CategoriesPage extends BasicPage{
         Assert.assertEquals(actualCategory, GeneralActions.unchangedCategoryName, "TBD");
         return this;
     }
-
-    // cleanUp after test
-//    public CategoriesPage deleteFilteredCategories(){
-//       openBulkActions();
-//       driver.findElement(By.cssSelector(".dropdown-menu > li > a > i.icon-check-sign")).click();
-//       openBulkActions();
-//       driver.findElement(By.cssSelector(".dropdown-menu > li > a[onclick*='submitBulkdeletecategory']")).click();
-//       // and then Alert comes....(Tony_Stark_bored_face.jpg)
-//       return this;
-//    }
-//
-//    public CategoriesPage openBulkActions(){
-//        driver.findElement(By.className("bulk-actions")).click();
-//        return this;
-//    }
 }
