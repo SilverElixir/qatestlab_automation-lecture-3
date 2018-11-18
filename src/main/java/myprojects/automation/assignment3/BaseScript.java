@@ -1,6 +1,7 @@
 package myprojects.automation.assignment3;
 
 import myprojects.automation.assignment3.pages.LoginPage;
+import myprojects.automation.assignment3.utils.EventHandler;
 import myprojects.automation.assignment3.utils.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,7 +20,7 @@ public abstract class BaseScript {
 
     @BeforeTest
     public void setUp(){
-        getDriver().manage().window().maximize();
+        getConfiguredDriver().manage().window().maximize();
     }
 
     @AfterTest(alwaysRun = true)
@@ -29,7 +30,7 @@ public abstract class BaseScript {
 
 
     public static LoginPage openLoginPage(){
-        getDriver().get(Properties.getBaseAdminUrl());
+        getConfiguredDriver().get(Properties.getBaseAdminUrl());
         return new LoginPage();
     }
 
@@ -41,8 +42,8 @@ public abstract class BaseScript {
     public static WebDriver getDriver() {
         if(driver == null) {
             String path = System.getProperty("user.dir");
-            System.setProperty("webdriver.chrome.driver", path + "/src/main/resources/win/chromedriver.exe");
-//            System.setProperty("webdriver.chrome.driver", path + "/src/main/resources/mac/chromedriver");
+//            System.setProperty("webdriver.chrome.driver", path + "/src/main/resources/win/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", path + "/src/main/resources/mac/chromedriver");
 //           I run the scripts on Mac, unfortunately, don't have a chance to check them on Windows
             driver = new ChromeDriver();
         }
@@ -71,10 +72,10 @@ public abstract class BaseScript {
      * to the automation project, returns {@link ChromeDriver} instance by default.
      */
     public static EventFiringWebDriver getConfiguredDriver() {
-        WebDriver driver = getDriver();
+        EventFiringWebDriver driver = new EventFiringWebDriver(getDriver());
+        driver.register(new EventHandler());
 
-       // TODO configure browser window (set timeouts, browser pindow position) and connect loggers.
-        throw new UnsupportedOperationException("Method doesn't return configured WebDriver instance");
+        return driver;
     }
 }
 

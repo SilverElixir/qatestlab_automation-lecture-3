@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigating to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.id: email]]>
+    </line>
+    <line>
+      <![CDATA[Going to fill in the text into above element]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.id: passwd]]>
+    </line>
+    <line>
+      <![CDATA[Going to fill in the text into above element]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.name: submitLogin]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on : ВХОД]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.className: employee_avatar_small]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.id: subtab-AdminCatalog]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.id: subtab-AdminProducts]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.id: subtab-AdminCategories]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.className: page-head]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.id: page-header-desc-category-new_category]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on : Добавить категорию]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.id: name_1]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.id: name_1]]>
+    </line>
+    <line>
+      <![CDATA[Going to fill in the text into above element]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.id: category_form_submit_btn]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on : Сохранить]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.className: page-head]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.cssSelector: .alert-success:nth-child(1)]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.name: categoryFilter_name]]>
+    </line>
+    <line>
+      <![CDATA[Going to fill in the text into above element]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.id: submitFilterButtoncategory]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on : Поиск]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.className: table-responsive-row]]>
+    </line>
+    <line>
+      <![CDATA[Finding element : By.cssSelector: tbody > tr > td:nth-child(3)]]>
+    </line>
+  </reporter-output>
+  <suite name="SuiteAll" duration-ms="25526" started-at="2018-11-18T19:46:18Z" finished-at="2018-11-18T19:46:44Z">
+    <groups>
+    </groups>
+    <test name="CreateCategoryTest" duration-ms="25526" started-at="2018-11-18T19:46:18Z" finished-at="2018-11-18T19:46:44Z">
+      <class name="myprojects.automation.assignment3.tests.CreateCategoryTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:myprojects.automation.assignment3.tests.CreateCategoryTest@3f3afe78]" name="setUp" is-config="true" duration-ms="3585" started-at="2018-11-18T21:46:18Z" finished-at="2018-11-18T21:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:myprojects.automation.assignment3.tests.CreateCategoryTest@3f3afe78]" name="test3" duration-ms="21646" started-at="2018-11-18T21:46:22Z" finished-at="2018-11-18T21:46:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.id: email]]>
+            </line>
+            <line>
+              <![CDATA[Going to fill in the text into above element]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.id: passwd]]>
+            </line>
+            <line>
+              <![CDATA[Going to fill in the text into above element]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.name: submitLogin]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on : ВХОД]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.className: employee_avatar_small]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.id: subtab-AdminCatalog]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.id: subtab-AdminProducts]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.id: subtab-AdminCategories]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.className: page-head]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.id: page-header-desc-category-new_category]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on : Добавить категорию]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.id: name_1]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.id: name_1]]>
+            </line>
+            <line>
+              <![CDATA[Going to fill in the text into above element]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.id: category_form_submit_btn]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on : Сохранить]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.className: page-head]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.cssSelector: .alert-success:nth-child(1)]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.name: categoryFilter_name]]>
+            </line>
+            <line>
+              <![CDATA[Going to fill in the text into above element]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.id: submitFilterButtoncategory]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on : Поиск]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.className: table-responsive-row]]>
+            </line>
+            <line>
+              <![CDATA[Finding element : By.cssSelector: tbody > tr > td:nth-child(3)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:myprojects.automation.assignment3.tests.CreateCategoryTest@3f3afe78]" name="tearDown" is-config="true" duration-ms="281" started-at="2018-11-18T21:46:43Z" finished-at="2018-11-18T21:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- myprojects.automation.assignment3.tests.CreateCategoryTest -->
+    </test> <!-- CreateCategoryTest -->
+  </suite> <!-- SuiteAll -->
+</testng-results>

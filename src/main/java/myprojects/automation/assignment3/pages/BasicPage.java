@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasicPage {
 
-    WebDriver driver = BaseScript.getDriver();
+    WebDriver driver = BaseScript.getConfiguredDriver();
     WebDriverWait wait = new WebDriverWait(driver, 15);
 
 }
