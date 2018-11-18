@@ -34,9 +34,9 @@
 *.iml
 
 # TestNG (test-output)
-test-output/junitreports
-test-output/old
-test-output/SuiteAll
+/junitreports/
+/old/
+/SuiteAll/
 test-output/*.png
 test-output/*.gif
 test-output/*.css
